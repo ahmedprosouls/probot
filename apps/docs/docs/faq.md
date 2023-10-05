@@ -1,0 +1,31 @@
+# FAQ
+
+## Why some of my results are empty?
+
+Your probot collects results as soon as your user answers the first input. If other inputs have a blank answer, it means the user never answered them and left the bot.
+
+## How can I delete a block or an edge?
+
+You can right-click on most elements in the graph to open up a contextual menu.
+
+## Is human takeover is available on probot?
+
+Live chat is not natively integrated. probot is specifically built for async chats. You can still have a human takeover feature using the [Chatwoot block](/editor/blocks/integrations/chatwoot). It will open a Chatwoot live chat box whenever the block is hit.
+
+You can also implement great customer support with probot by using a ticketing system such as [Freshdesk](https://freshdesk.com/) or [Zendesk](https://www.zendesk.com/). You can create a ticket each time your user answers the bot.
+
+## Is there an affiliate program available?
+
+I'm not planning on having a probot affiliation program.
+
+As a customer, I don't like when someone promotes a tool with an affiliation because we could think that the only reason he's promoting it is that he can win big comparing with other tools.
+
+Natural recommendations resonate a lot more with me. My goal is to create the best user experience possible, so I really hope you will recommend probot for free. 🤝
+
+## How can I change my password
+
+probot doesn't store any password. Its login works with Github, Google, Facebook and Magic link email.
+
+## Can I set a variable with the Script block?
+
+No, the script block is only meant to execute a script. You can't set a variable with/in it. If you need to set a variable with some code, you can use the [Set variable block](/editor/blocks/logic/set-variable).
